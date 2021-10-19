@@ -1,15 +1,20 @@
 <template>
-  <hello-world />
+  <entry />
 </template>
 
 <script>
-  import HelloWorld from '../components/HelloWorld'
+  import Entry from '../components/Entry'
+//import Entry from './entry.vue'
 
   export default {
     name: 'Home',
-
+    // data: ()=>{
+    //   isVisible: true
+    // },
     components: {
-      HelloWorld,
+      Entry,
     },
+    
+        
   }
 </script>
